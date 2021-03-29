@@ -9,27 +9,31 @@
 	<link rel="Bookmark" type="image/x-icon" href="img/imed.png">
 	<title>Homepage of Yitian Zhao </title>
 	<meta name="viewport" content="width=device-width">
+	<style >
+	.face{
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	.default-link,.news a{
+		color:inherit;
+	}
+	.dataset,.title{
+	  color:#0000FF ;
+	}
+	.paper{
+	  color:#FF8C00;
+	}
+	.code{
+	  color:#FF0000;
+	}
+	.publications li{
+		margin: 5px;
+	}
+	</style>
 </head>
-<style type="text/css">
-.face{
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	overflow: hidden;
-}
-.default-link,.news a{
-	color:inherit;
-}
-.dataset{
-	color:0000FF;
-}
-.pdf{
-	color:FF8C00;
-}
-.code{
-	color: FF0000;
-}
-</style>
+
 <body>
 	<div class="wrapper" style="font-family: Helvetica, Tahoma, Arial; width:960px; margin: 0 auto; line-height:150%">
 
@@ -185,12 +189,53 @@
 			<hr />
 
 			<h3>
+				<a id="Code-pages" class="anchor" href="#Code-pages" aria-hidden="true"><span
+						class="octicon octicon-link"></span></a> Code:
+						<a class='default-link' href="https://github.com/iMED-Lab">[gitbub site]</a>
+			</h3>
+			<ul>
+				<li>
+					<span class='title'>Cerebrovascular Segmentation in MRA images</span>
+					<a class="code" href="https://github.com/iMED-Lab/RE-Net">[Code]</a>
+					<br>&nbsp&nbsp&nbsp&nbsp"​Cerebrovascular Segmentation in MRA via Reverse Edge Attention Network ", MICCAI, 2020,  pp. 66-75.
+				</li>
+				<li>
+					<span class='title'>Vessel Segmentation in Retinal OCTA images</span>
+					<a class="code" href="https://github.com/iMED-Lab/OCTA-Net-OCTA-Vessel-Segmentation-Network">[Code]</a>
+					<br>&nbsp&nbsp&nbsp&nbsp"ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model", IEEE Transactions on Medical Imaging (TMI), 2020, in press.
+				</li>
+				<li>
+					<span class='title'>3D Iris Reconstruction based on AS-OCT Images</span>
+					<a class="code" href="https://github.com/iMED-Lab/WRB-Net">[Code]</a>
+					<br>&nbsp&nbsp&nbsp&nbsp"Reconstruction and Quantification of 3D Iris Surface for Angle-Closure Glaucoma Detection in Anterior Segment OCT", MICCAI, 2020.
+				</li>
+				<li>
+					<span class='title'>2D Biomedical Image Segmentation</span>
+					<a class="code" href="https://github.com/Guzaiwang/CE-Net">[Code]</a>
+					<br>&nbsp&nbsp&nbsp&nbsp"CE-Net: Context Encoder Network for 2D Medical Image Segmentation", IEEE Transactions on Medical Imaging (TMI), vol. 38, no. 10, pp. 2281-2292, 2019.
+				</li>
+				<li>
+					<span class='title'>Vessel and Nerve Fibre Segmentation in 2D Biomedical Images</span>
+					<a class="code" href="https://github.com/iMED-Lab/CS-Net">[Code]</a>
+					<br>&nbsp&nbsp&nbsp&nbsp"CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation", MICCAI, 2019, pp. 721-730.
+				</li>
+				<li>
+					<span class='title'>Vessel and Nerve Fibre Segmentation in 2D and 3D Biomedical Images</span>
+					<a class="code" href="https://github.com/iMED-Lab/CS-Net">[Code]</a>
+					<br>&nbsp&nbsp&nbsp&nbsp"CS2-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging", Medical Image Analysis, in press, 2020", MICCAI, 2020,  pp. 66-75.
+				</li>
+			</ul>
+
+			<hr/>
+
+			<div class="publications">
+			<h3>
 				<a id="Paper-pages" class="anchor" href="#Paper-pages" aria-hidden="true"><span
 						class="octicon octicon-link"></span></a> Selected Publications:
 			</h3>
 
 			<h4>
-				<a href="https://scholar.google.co.uk/citations?user=8mULu94AAAAJ&hl=en" target="_blank">[Google Scholar Profile]</a> <em>for full publication list.</em>
+				<a class="default-link" href="https://scholar.google.co.uk/citations?user=8mULu94AAAAJ&hl=en" target="_blank">Google Scholar Profile</a> for full publication list.
 			</h4>
 
 			<h4>
@@ -212,16 +257,222 @@
 			<ul>
 				<li>
 					Yuhui Ma, Huaying Hao, Jianyang Xie, Huazhu Fu, Jiong Zhang, Jianlong Yang, Zhen Wang, Jiang Liu, Yalin Zheng, <strong>Yitian Zhao</strong>, ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model, <strong>IEEE Transactions on Medical Imaging</strong>, in press, 2020.
-					<a href="https://imed.nimte.ac.cn/dataofrose.html" target="_blank">[Dataset: ROSE]</a>
-					<a class="pdf" href="https://ieeexplore.ieee.org/document/9284503" target="_blank">[Paper] </a>
+					<a class="dataset" href="https://imed.nimte.ac.cn/dataofrose.html" target="_blank">[Dataset: ROSE]</a>
+					<a class="paper" href="https://ieeexplore.ieee.org/document/9284503" target="_blank">[Paper] </a>
 					<a class="code" href="https://github.com/iMED-Lab/OCTA-Net-OCTA-Vessel-Segmentation-Network" target="_blank">[Code]</a>
+				</li>
+				<li>
+					Weixiang Du, Haochen Liu, <strong>Yitian Zhao</strong>, Adisorn Sirikham, Sri Addepalli, Yifan Zhao, A miniaturised active thermography system to inspect composite laminates,  <strong>IEEE Transactions on Industrial Informatics</strong>, in press, 2020.
+					<a class="paper" href="https://ieeexplore.ieee.org/document/9222081/authors#authors" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					Lei Mou, <strong>Yitian Zhao</strong>, Huazhu Fu, Yonghuai Liu, Jun Cheng, Yalin Zheng, Pan Su, Jianlong Yang, Li Chen, Alejandro Frangi, Masahiro Akiba, Jiang Liu, CS2-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging, <strong>Medical Image Analysis</strong>, 2020, 67: 101874.
+					<a class="paper" href="https://arxiv.org/pdf/2010.07486.pdf" target="_blank">[Paper]</a>
+					<a class="code" href="https://github.com/iMED-Lab/CS-Net" target="_blank">[Code]</a>
+				</li>
+				<li>
+					Huihong Zhang, Jianlong Yang, Kang Zhou, Liyang Fang, Fei Li, Yan Hu, <strong>Yitian Zhao</strong>, Xiulan Zhang, Jiang Liu, Automatic Segmentation and Visualization of Choroid in OCT with Knowledge Infused Deep Learning, <strong>IEEE-JBHI</strong>, 24(12): 3408-3420, 2020.
+					<a class="paper" href="https://arxiv.org/pdf/2002.04712.pdf" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					Pan Su, Tianhua Chen, Jianyang Xie, Yalin Zheng, Hong Qi, Davide Borroni, <strong>Yitian Zhao</strong>, Jiang Liu. Corneal Nerve Tortuosity Grading via Ordered Weighted Averaging-based Feature Extraction, <strong>Medical Physics</strong>, 2020, 47(10): 4983-4996.
+					<span style="color:#A64D79;">(featured cover article)<span>
+					<a class="paper" href="https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.14431" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					Joshua Bridge, Yanda Meng, <strong>Yitian Zhao</strong>, Yalin Zheng, Introducing the GEV Activation Function for Highly Unbalanced Data to Develop COVID-19 Diagnostic Models, <strong>IEEE-JBHI</strong>, 2020, 24(10): 2776-2786.
+					<a class="paper" href="https://ieeexplore.ieee.org/document/9151288" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					Ran Song, Wei Zhang, <strong>Yitian Zhao</strong>, Yonghuai Liu, Unsupervised Multi-View CNN for Salient View Selection of 3D Objects and Scenes. Proceeding of <strong>ECCV</strong>, 2020, pp. 454-470
+					<a class="dataset" href="https://github.com/rsong/UMVCNN" target="_blank">[Dataset]</a>
+					<a class="paper" href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640443.pdf" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					Yanda Meng, Meng Wei, Dongxu Gao, <strong>Yitian Zhao</strong>, Xiaoyun Yang, Xiaowei Huang, Yalin Zheng, Regression of Instance Boundary by Aggregated CNN and GCN. Proceeding of <strong>ECCV</strong>, 2020, pp. 190-207
+					<a class="paper" href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530188-supp.pdf" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					Yuhui Ma, Yonghuai Liu, Jun Cheng, Yalin Zheng, Morteza Ghahremani, Honghan Chen, Jiang Liu, <strong>Yitian Zhao</strong>, Cycle Structure and Illumination Constrained GAN for Medical Image Enhancement. Proceeding of <strong>MICCAI</strong>, 2020, pp. 667-677.
+					<a class="dataset" href="https://imed.nimte.ac.cn/CORN.html" target="_blank">[Dataset: CORN-2]</a>
+				</li>
+				<li>
+					Hao Zhang, Likun Xia, Ran Song, Jianlong Yang, Huaying Hao, Jiang Liu, <strong>Yitian Zhao</strong>, Cerebrovascular Segmentation in MRA via Reverse Edge Attention Network. Proceeding of <strong>ICCAI</strong>, 2020,  pp. 66-75.
+					<a class="code" href="https://github.com/iMED-Lab/RE-Net" target="_blank">[Code]</a>
+				</li>
+				<li>
+					Yanda Meng, Meng Wei, Dongxu Gao, <strong>Yitian Zhao</strong>, Xiaoyun Yang, Xiaowei Huang, Yalin Zheng, CNN-GCN Aggregation Enabled Boundary Regression for Biomedical Image Segmentation. Proceeding of <strong>MICCAI</strong>, 2020, pp. 352-362.
+				</li>
+				<li>
+					Jinkui Hao, Huazhu Fu, Yanwu Xu, Yan Hu, Fei Li, Xiulan Zhang, Jiang Liu, <strong>Yitian Zhao</strong>, Reconstruction and Quantification of 3D Iris Surface for Angle-Closure Glaucoma Detection in Anterior Segment OCT. Proceeding of <strong>MICCAI</strong>, 2020, pp. 704-714.
+					<a class="paper" href="https://arxiv.org/pdf/2006.05179.pdf" target="_blank">[Paper]</a>
+					<a class="code" href="https://github.com/iMED-Lab/WRB-Net" target="_blank">[Code]</a>
+				</li>
+				<li>
+					Huaying Hao, Huazhu Fu, Yanwu Xu, Jianlong Yang, Fei Li, Xiulan Zhang, Jiang Liu, <strong>Yitian Zhao</strong>, Open-Narrow-Synechiae Anterior Chamber Angle Classification in AS-OCT Sequences. Proceeding of <strong>MICCAI</strong>, 2020, pp. 515-724.
+					<a class="paper" href="https://arxiv.org/pdf/2006.05367.pdf" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					Jianyang Xie, Yonghuai Liu, Yalin Zheng, Pan Su, Yan Hu, Jianlong Yang, Jiang Liu, <strong>Yitian Zhao</strong>, Classification of Retinal Vessels into Artery-Vein in OCT Angiography Guided by Fundus Images. Proceeding of <strong>MICCAI</strong>, 2020, pp.117-127.
+					<a class="dataset" href="https://imed.nimte.ac.cn/ACRO.html" target="_blank">[Dataset: ACRO]</a>
+				</li>
+				<li>
+					Xingjun Ma, Yuhao Niu，Lin Gu, Yisen Wang, <strong>Yitian Zhao</strong>, James Bailey, Feng Lu, Understanding Adversarial Attacks on Deep Learning Based Medical Image Analysis Systems, <strong>Pattern Recognition</strong>,110: 107332, 2021.
+					<a class="paper" href="https://arxiv.org/pdf/1907.10456.pdf" target="_blank">[Paper]</a>
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Jiong Zhang, Ella Pereira, Yalin Zheng, Pan Su, Jianyang Xie, Yifan Zhao, Yonggang Shi, Hong Qi,  Jiang Liu, Yonghuai Liu, Automated Tortuosity Analysis of Nerve Fibers in Corneal Confocal Microscopy, <strong>IEEE Transactions on Medical Imaging</strong>, 2020, 39(9): 2725-2737.
+					<a class="dataset" href="https://imed.nimte.ac.cn/CORN.html" target="_blank">[Dataset: CORN-3]</a>
+				</li>
+				<li>
+					Brayn Williams, Davide Borroni, Rongjun Liu, <strong>Yitian Zhao</strong>, Jiong Zhang, Yalin Zheng, An aritifical intenlligence-based deep learning algorithm for the diagnosis of diabetic neuropathy using corneal confocal microscopy: a development and validation study, <strong>Diabetologia</strong>, 63(2): 419-430, 2020
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Jianyang Xie, Huaizhong Zhang, Yalin Zheng, Yifan Zhao, Hong Qi, Yangchun Zhao, Pan Su, Jiang Liu and Yonghuai Liu. Retinal Vascular Network Topology Reconstruction and Artery/Vein Classification via Dominant Set Clustering, <strong>IEEE Transactions on Medical Imaging</strong>, 2020, 39(2): 341-356.
+					<a class="dataset" href="https://imed.nimte.ac.cn/ssel-pology-groundtruth.html" target="_blank">[Dataset: VETO]</a>
+				</li>
+				<li>
+					Lei Mou, Li Chen, Jun Cheng, Zaiwang Gu, <strong>Yitian Zhao</strong>, Jiang Liu, Dense Dilated Network with Probability Regularized Walk for Vessel Detection, <strong>IEEE Transcation on Medical Imaging</strong>, 39(5): 1392-1403, 2020.
+				</li>
+				<li>
+					Yuting Xiao, Shenghua Gao, Zhenjie Chai, Kang Zhou, Tianyang Zhang, <strong>Yitian Zhao</strong>, Jun Cheng, Jiang Liu, Open-Set Oct Image Recognition with Synthetic Learning. Proceeding of <strong>ISBI</strong>, 2020, pp. 1788-1792.
+				</li>
+				<li>
+					Kang Zhou, Shenghua Gao , Jun Cheng, Zaiwang Gu, Huazhu Fu, Zhi Tu, Jianlong Yang, <strong>Yitian Zhao</strong>, Jiang Liu,  Sparse-GAN: Sparsity-Constrained Generative Adversarial Network for Retinal OCT Image Anomaly Detection. Proceeding of <strong>ISBI</strong>, 2020, pp. 1227-1231.
 				</li>
 			</ul>
 
+			<h4>
+				2019:
+			</h4>
+			<ul>
+				<li>
+					Qifeng Yan, <strong>Yitian Zhao</strong>, Yalin Zheng, Yonghuai Liu, Kang Zhou, Alejandro Frangi, Jiang Liu, Automated retinal lesion detection via image saliency analysis, <strong>Medical Physics</strong>, 46(10): 4531-4544, 2019.
+				</li>
+				<li>
+					Tianyang Zhang, Huazhu Fu, <strong>Yitian Zhao</strong>, Jun Cheng, Jiang Liu, SkrGAN: Sketching-rendering Unconditional Generative Adversarial Networks for Medical Image Synthesis,  Proceeding of <strong>MICCAI</strong> 2019, pp. 777-785.
+				</li>
+				<li>
+					Pan Su, <strong>Yitian Zhao</strong>, Tianhua Che, Jianyang Xie, Yifan Zhao, Hong Qi, Yalin Zheng, Jiang Liu, Exploiting Reliability-guided Aggregation for the Assessment of Curvilinear Structure Tortuosity, Proceeding of <strong>MICCAI</strong> 2019, pp. 12-20.
+				</li>
+				<li>
+					Lei Mou, <strong>Yitian Zhao</strong>, Li Chen, Jun Cheng,Hong Qi, Yalin Zheng, Alejandro Frangi, Jiang Liu, CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation, Proceeding of <strong>MICCAI</strong> 2019, pp. 721-730.
+					<a class="dataset" href="https://imed.nimte.ac.cn/CORN.html" target="_blank">[Dataset: CORN-1]</a>
+					<a class="code" href="https://github.com/iMED-Lab/CS-Net" target="_blank">[Code]</a>
+				</li>
+				<li>
+					Pholpat Durongbhan, Yifan Zhao, Liangyu Chen, Panagiotis Zis, Matteo De Marco, Zoe C. Unwin, Annalena Venneri, Xiongxiong He, Sheng Li, <strong>Yitian Zhao</strong>, Daniel J. Blackburn, and Ptolemaios G. Sarrigiannis. A Dementia Classification Framework using Frequency and Time-frequency Features based on EEG signals. <strong>IEEE Transactions on Neural Systems & Rehabilitation Engineering</strong>, 27(5): 826-835, 2019.
+				</li>
+				<li>
+					Pan Su, Tianhua Chen, Haoyu Mao, Jianyang Xie, <strong>Yitian Zhao</strong>, Jiang Liu. On the Application of Preaggregation Functions to Fuzzy Pattern Tree, <strong>FUZZ-IEEE</strong> 2019.
+				</li>
+				<li>
+					Zaiwang Gu, Jun Cheng, Huazhu Fu, <strong>Yitian Zhao</strong>, Tianyang Zhang, Huaying Hao, Kang Zhou, Jiang Liu, CE-Net: Context Encoder Network for 2D Medical Image Segmentation, <strong>IEEE Transactions on Medical Imaging</strong>, 38(10): 2281-2292, 2019.
+					<a class="code" href="https://github.com/Guzaiwang/CE-Net" target="_blank">[Code]</a>
+				</li>
+				<li>
+					Jianyang Xie, <strong>Yitian Zhao</strong>, Yonghuai Liu, Pan Su, Yalin Zheng, Yifan Zhao, Jun Cheng, Jiang Liu, Topology Reconstruction of Tree-like Structure in Images via Structural Similarity Measure and Dominant Set Clustering, Proceeding of <strong>CVPR</strong>, Long Beach, USA, June, pp. 8505-8513, 2019.
+				</li>
+				<li>
+					Jun Cheng, <strong>Yitian Zhao</strong>, Yan Hu and Jiang Liu, Pixel Reconstruction for Speckle Reduction in 3D Optical Coherence Tomography of Retina,  Proceeding of <strong>ISBI</strong>, Venice, Italy, pp. 1424-1427 2019.
+				</li>
+			</ul>
+
+			<h4>
+				2018:
+			</h4>
+			<ul>
+				<li>
+					Yonghuai Liu, <strong>Yitian Zhao</strong>, Yanquan Zhou, Yongjun Wang, Wei Huang, Jiwan Han, Yiguang Liu, Logistic Regression of Point Matches for Accurate Transformation Estimation, Proceedings of  International Conference on 3D Vision (<strong>3DV</strong>),  pp. 409-417，Verona, Italy, September, 2018.
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>,Yalin Zheng, Zhili Chen, Peng Liu, Yifan Zhao, Jiang Liu, Uniqueness-Driven Saliency Analysis For Automated Abnormalities Detection with Application to Retinal Diseases, Proceedings of <strong>MICCAI</strong>, pp. 109-118, Granada, Spain, September, 2018.
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Jianyang Xie, Yalin Zheng, Yonghuai Liu, Pan Su, Yifan Zhao, Jun Cheng, Jiang Liu,  Retinal Artery and Vein Classification via Dominant Sets Clustering-based Vascular Topology Estimation, Proceedings of <strong>MICCAI</strong>, pp. 56-64, Granada, Spain, September, 2018.
+					<a class="dataset" href="https://imed.nimte.ac.cn/ssel-pology-groundtruth.html" target="_blank">[Dataset: VETO]</a>
+				</li>
+				<li>
+					Jianyang Xie, <strong>Yitian Zhao</strong>, Yalin Zheng, Jiang Liu, Yongtian Wang, Retinal Vascular Topology Estimation Via Dominant Sets Clustering.  Proceedings of International Symposium on Biomedical Imaging (<strong>ISBI</strong> 2018), Washington DC, USA, April, 2018.
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Yalin Zheng, Yonghuai Liu, Yifan Zhao, Lingling Luo, Siyuan Yang, Tong Na, Yongtian Wang, Jiang Liu, Automatic 2D/3D Vessel Enhancement in Multiple Modality Images Using a Weighted Symmetry Filter, <strong>IEEE Transactions on Medical Imaging</strong>, 37(2): 438-450, 2018.
+					<a class="dataset" href="https://imed.nimte.ac.cn/MMM-21.html" target="_blank">[Dataset: MMM-21]</a>
+				</li>
+			</ul>
+
+			<h4>
+				2017:
+			</h4>
+			<ul>
+				<li>
+					Pan Su, Changjing Shang, <strong>Yitian Zhao</strong>, Tianhua Chen and Qiang Shen, Fuzzy Rough Feature Selection Based on OWA Aggregation of Fuzzy Relations, <strong>FUZZ-IEEE</strong>, Naples, Italy, 1-6, 2017. [Oral]
+				</li>
+				<li>
+					Gabriela Czanner, Ian James MacCormick, Yalin Zheng, Silvester Czanner, <strong>Yitian Zhao</strong>, Peter Diggle, Simon P Harding, Spatial distribution modelling of retinal lesions with application to retinal capillary non-perfusion in malarial retinopathy, <strong>Investigative Ophthalmology & Visual Science</strong>, 58(8): 4819, 2017. (Abstract)
+				</li>
+				<li>
+					Yalin Zheng, Bryan M Williams, Harry Pratt, Baidaa Al-Bander, Xiangqian Wu, <strong>Yitian Zhao</strong>, Computer aided diagnosis of age-related macular degeneration in 3D OCT images by deep learning, <strong>Investigative Ophthalmology & Visual Science</strong>, 58(8): 824, 2017. (Abstract)
+				</li>
+				<li>
+					Lingling Luo, <strong>Yitian Zhao</strong>, Jian Yang, Yalin Zheng, Danni Ai, Yongtian Wang, Cerebral Vascular Enhancement Using a Weighted 3D Symmetry Filter. Proceedings of International Symposium on Biomedical Imaging (<strong>ISBI</strong> 2017), Melbourne, Australia, 1945-8452, 2017.
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Yalin Zheng, Yonghuai Liu, Jian Yang, Yifan Zhao, Yongtian Wang, Intensity and Compactness Enabled Saliency Estimation for Leakage Detection in Diabetic and Malarial Retinopathy, <strong>IEEE Transactions on Medical Imaging</strong>, 36(1): 51-63, 2017.
+					<a class="dataset" href="https://www.researchgate.net/publication/316662077_Malarial_Retinopathy_MR_Dataset_--_Part_I_Leakage" target="_blank">[Dataset: LIMA]</a>
+				</li>
+				<li>
+					Jingfan Fan, Jian Yang, <strong>Yitian Zhao</strong>, Danni Ai, Yonghuai Liu, Ge Wang, Yongtian Wang, Convex Hull Aided Registration Method (CHARM), <strong>IEEE Transactions on Visualization and Computer Graphics</strong>, 23(9): 2042-2055, 2017
+				</li>
+			</ul>
+
+			<h4>
+				2016:
+			</h4>
+			<ul>
+				<li>
+					Yonghuai Liu, Honghai Liu, Ralph R. Martin, Luigi De Dominicis, Ran Song, <strong>Yitian Zhao</strong>, Accurately Estimating Rigid Transformations in Registration using a Boosting-Inspired Mechanism, <strong>Pattern Recognition</strong>, 60: 849–862, 2016.
+				</li>
+				<li>
+					Sebastian Amrogowicz, <strong>Yitian Zhao</strong>, Yifan Zhao, An Edge Detection Method using Outer Totalistic Cellular Automata, <strong>Neurocomputing</strong>, 214(19): 643-653, 2016.
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Yonghuai Liu, Yongjun Wang, Baogang Wei, Jian Yang, Yifan Zhao, Yongtian Wang: Region-based saliency estimation for 3D shape analysis and understanding. <strong>Neurocomputing</strong>, 197: 1-13, 2016.
+				</li>
+				<li>
+					Jingfan Fan, Jian Yang, Danni Ai, Likun Xia, <strong>Yitian Zhao</strong>, Yongtian Wang: Convex Hull indexed Gaussian Mixture Model (CH-GMM) for Non-rigid Point Set Registration, <strong>Pattern Recognition</strong>. 59: 126-141, 2016.
+				</li>
+				<li>
+					Jingfan Fan, Jian Yang, Feng Lu, Danni Ai, <strong>Yitian Zhao</strong>, Yongtian Wang: 3-Points Convex Hull Matching (3PCHM) for Fast and Robust Point Set Registration, <strong>Neurocomputing</strong>, 194: 227-240, 2016.
+				</li>
+			</ul>
+
+			<h4>
+				2015:
+			</h4>
+			<ul>
+				<li>
+					<strong>Yitian Zhao</strong>,  Lavdie Rada, Ke Chen, Simon Harding, Yalin Zheng: Automated Vessel Segmentation Using Infinite Perimeter Active Contour Model with Hybrid Region Information with Application to Retina Images. <strong>IEEE Transactions on Medical Imaging</strong>, 34(9): 1797-1807, 2015. [Top 2 Most Frequently Downloaded Paper of T-MI in 2015]
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Ian J. C. MacCormick, David G. Parry, Nicholas A. V. Beare, Simon P. Harding, Yalin Zheng: Automated Detection of Vessel Abnormalities on Fluorescein Angiogram in Malarial Retinopathy. <strong>Scientific Reports</strong>, 5: srep11154, 2015.
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Yonghuai Liu, Xiangqian Wu, Simon P Harding, Yalin Zheng: Retinal Vessel Segmentation: An Efficient Graph Cut Approach with Retinex and Local Phase. <strong>PLoS ONE</strong>,10(4): 0122332, 2015. [ESI highly cited paper]
+				</li>
+				<li>
+					<strong>Yitian Zhao</strong>, Ian J C MacCormick, David G Parry, Sophie Leach, Nick Beare, Simon P Harding, Yalin Zheng: Automated Detection of Leakage in Fluorescein Angiography Images with Application to Malarial Retinopathy. <strong>Scientific Reports</strong>, 5: srep10425, 2015.
+				</li>
+				<li>
+					Yonghuai Liu, Honghai Liu, <strong>Yitian Zhao</strong>, Ran Song: Performance calibration through partly peer assessment. Proceedings of International Conference on Education and New Developments (<strong>END</strong> 2015), Porto, Portugal, 62-66, (AR=33%),. [Oral]
+				</li>
+			</ul>
+			<h4>
+				2014 and earlier, please visit my <a class="default-link" href="https://scholar.google.co.uk/citations?user=8mULu94AAAAJ&hl=en">Google Scholar</a>
+			</h4>
+		</div>
 
 			<hr />
-
-
 		</section>
 
 	</div>
