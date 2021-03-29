@@ -1,0 +1,76 @@
+<style>
+.face{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.default-link,.news a{
+	color:inherit;
+}
+.dataset,.title{
+  color:#0000FF ;
+}
+.paper{
+  color:#FF8C00;
+}
+.code,.code a{
+  color:#FF0000;
+	text-decoration:none;
+}
+.publications li,.dataset-ul li{
+	margin: 5px;
+}
+.publications li a,.dataset-ul li a{
+	text-decoration:none;
+}
+.highlights{
+	color:#990000;
+}
+.dataset-ul{
+	list-style: none;
+}
+.line{
+		display: table-cell;
+		vertical-align: middle;
+		width:100%;
+	}
+.img-div{
+	width:30%;
+	float:left;
+	margin-left:12%;
+}
+.text{
+	text-align: left;
+	width:40%;
+	float: right;
+	margin-right:15%;
+	margin-left: 0;
+	padding-left: 0;
+}
+.text p,.text li{
+	font-family: EB Garamond;
+	font-size: 12pt;
+	font-weight: normal;
+	vertical-align: baseline;
+}
+.img-div img{
+	padding-top: 20px;
+	width:100%;
+}
+.highlights-body{
+	text-align:center;
+}
+.highlights-ol li{
+	padding-top: 5px;
+	padding-bottom:5px;
+	
+}
+.highlights-ol a{
+	text-decoration:none;
+}
+.highlights-body section{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+</style>	
